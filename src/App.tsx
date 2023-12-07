@@ -1,7 +1,10 @@
+import { Button } from './components/ui/Button';
+
 function App() {
   return (
     <>
-      <h1>Al nasr</h1>
+      <Button>Hello</Button>
+      <Button className='btn btn--outline-primary'>World</Button>
     </>
   );
 }
