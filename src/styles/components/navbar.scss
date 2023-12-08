@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+
+  &__menu {
+    padding-left: 0;
+    height: 100%;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+
+    &__link {
+      text-decoration: none;
+      color: $n-grey-light;
+      font-family: 'Nunito', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 64%;
+
+      &:hover {
+        color: $n-yellow;
+      }
+
+      &--active {
+        color: $n-yellow;
+        font-weight: 700;
+
+        &:hover {
+          color: $n-grey-light;
+        }
+      }
+
+    }
+  }
+}
