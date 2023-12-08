@@ -1,11 +1,14 @@
-import { Button } from './components/ui/Button';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { Homepage } from './pages/Homepage';
 
 function App() {
   return (
-    <>
-      <Button>Hello</Button>
-      <Button className='btn btn--outline-primary'>World</Button>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='home' element={<Homepage />} />
+        <Route path='/' element={<Navigate to='home' replace />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
