@@ -1,0 +1,49 @@
+.btn {
+  min-height: 3rem;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64%;
+
+  &:hover {
+    opacity: 90%;
+    cursor: pointer;
+  }
+
+  &:active {
+    animation: pop 0.3s linear 1;
+  }
+  @keyframes pop{
+    50%  {transform: scale(0.9);}
+  }
+
+  &--primary {
+    background-color: $n-yellow;
+    color: $n-grey-darker;
+  }
+
+  &--secondary {
+    background-color: $n-white;
+    color: $n-green;
+  }
+
+  &--outline-primary {
+    border: 2px solid $n-yellow;
+    background-color: transparent;
+    color: $n-yellow;
+  }
+
+  &--xl {
+    padding: 26px 48px;
+  }
+
+  &--2xl {
+    padding: 32px 62px;
+  }
+}
