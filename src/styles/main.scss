@@ -6,3 +6,27 @@
 body {
   font-family: 'Nunito', 'Kufam', sans-serif;
 }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 668px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 924px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1240px;
+  }
+}
