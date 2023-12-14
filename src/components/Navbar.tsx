@@ -31,7 +31,7 @@ export const Navbar = () => {
                     : 'navbar__menu__link'
                 }
               >
-                Logo
+                Home
               </Link>
             </li>
             <li>
