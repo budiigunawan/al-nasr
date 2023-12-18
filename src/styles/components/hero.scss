@@ -1,0 +1,50 @@
+.hero {
+  display: flex;
+
+  &__info, &__illustration {
+    width: 50%;
+  }
+
+  &__info {
+    &__title {
+      color: $n-grey;
+      font-family: 'Kufam', sans-serif;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 140%;
+      text-align: left;
+      margin-top: 35px;
+    }
+
+    &__subtitle {
+      color: $n-grey-dark;
+      font-family: 'Nunito', sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 150%;
+      text-align: left;
+      margin-top: 15px;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__illustration {
+    &__box {
+      width: 533px;
+      height: 245px;
+      border-radius: 10px;
+      background: $n-green;
+      margin-left: auto;
+      margin-right: 0;
+      position: relative;
+      top: 131px
+    }
+
+    &__video {
+      position: relative;
+      z-index: 2;
+      bottom: 240px;
+      left: 142px;
+    }
+  }
+}
