@@ -29,6 +29,7 @@
   }
 
   &__illustration {
+    position: relative;
     &__box {
       width: 533px;
       height: 245px;
@@ -41,10 +42,20 @@
     }
 
     &__video {
-      position: relative;
-      z-index: 2;
-      bottom: 240px;
+      position: absolute;
+      bottom: 0;
       left: 142px;
+    }
+
+    &__review-one {
+      position: absolute;
+      bottom: -40px;
+    }
+
+    &__review-two {
+      position: absolute;
+      top: 30px;
+      right: 22px;
     }
   }
 }

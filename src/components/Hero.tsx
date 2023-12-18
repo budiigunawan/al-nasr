@@ -1,5 +1,9 @@
 import { Badge } from './ui/Badge';
 import { Button } from './ui/Button';
+import { ReviewCard } from './ui/ReviewCard';
+
+import Reviewer1 from '@/assets/img/reviewer-1.png';
+import Reviewer2 from '@/assets/img/reviewer-2.png';
 
 export const Hero = () => {
   return (
@@ -27,6 +31,20 @@ export const Hero = () => {
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
               allowFullScreen
             ></iframe>
+          </div>
+          <div className='hero__illustration__review-one'>
+            <ReviewCard
+              img={Reviewer1}
+              author='Mohammad Qassem'
+              review='The most amazing city of Mecca'
+            />
+          </div>
+          <div className='hero__illustration__review-two'>
+            <ReviewCard
+              img={Reviewer2}
+              author='Ali Qualadeini'
+              review={`Let's worship as good Muslims`}
+            />
           </div>
         </div>
       </div>
