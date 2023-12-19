@@ -1,0 +1,40 @@
+.review-card {
+  display: flex;
+  gap: 14px;
+  width: 230px;
+  min-height: 80px;
+  padding: 5px;
+  align-items: flex-start;
+  border-radius: 10px;
+  border: 1px solid $n-green;
+  background: $n-white;
+
+  &__img {
+    width: 33%;
+    height: 70px;
+  }
+
+  &__info {
+    width: 66%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__title {
+    color: $n-grey;
+    font-family: 'Kufam', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  &__sub-title {
+    color: $n-grey;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}

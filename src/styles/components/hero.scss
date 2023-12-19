@@ -1,0 +1,80 @@
+.hero {
+  display: flex;
+
+  &__info, &__illustration {
+    width: 50%;
+  }
+
+  &__info {
+    &__title {
+      color: $n-grey;
+      font-family: 'Kufam', sans-serif;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 140%;
+      text-align: left;
+      margin-top: 35px;
+    }
+
+    &__subtitle {
+      color: $n-grey-dark;
+      font-family: 'Nunito', sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 150%;
+      text-align: left;
+      margin-top: 15px;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__illustration {
+    position: relative;
+    &__box {
+      width: 533px;
+      height: 245px;
+      border-radius: 10px;
+      background: $n-green;
+      margin-left: auto;
+      margin-right: 0;
+      position: relative;
+      top: 131px
+    }
+
+    &__video {
+      position: absolute;
+      bottom: 0;
+      left: 142px;
+    }
+
+    &__review-one {
+      position: absolute;
+      bottom: -40px;
+    }
+
+    &__review-two {
+      position: absolute;
+      top: 30px;
+      right: 22px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__info {
+      width: 100%;
+    }
+    
+    &__illustration {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__illustration {
+      &__video {
+        left: 80px;
+        top: 80px;
+      }
+    }
+  }
+}
