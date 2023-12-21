@@ -2,5 +2,6 @@ import { FlightIcon } from './FlightIcon';
 import { TicketIcon } from './TicketIcon';
 import { HotelIcon } from './HotelIcon';
 import { VisaIcon } from './VisaIcon';
+import { MeatIcon } from './MeatIcon';
 
-export { FlightIcon, TicketIcon, HotelIcon, VisaIcon };
+export { FlightIcon, TicketIcon, HotelIcon, VisaIcon, MeatIcon };
