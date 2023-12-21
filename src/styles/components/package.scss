@@ -1,0 +1,104 @@
+.package {
+  padding-top: 77px;
+  padding-bottom: 50px;
+
+  &__heading {
+    margin: 0 auto;
+    width: 821px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &__title {
+      text-align: center;
+      color: $n-grey;
+      font-family: 'Kufam', sans-serif;
+      font-size: 54px;
+      font-weight: 700;
+    }
+  
+    &__subtitle {
+      width: 660px;
+      margin: 0 auto;
+      text-align: center;
+      font-family: 'Nunito', sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  &__card-container {
+    padding-top: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px 78px ;
+  }
+
+  &__card {
+    width: 361px;
+    padding: 28px 26px;
+    padding-right: 0;
+    border-radius: 10px;
+    background: $n-white;
+    box-shadow: 0px 4px 20px 0px rgba(29, 165, 153, 0.15);
+
+    &__badge {
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Nunito', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    &__category {
+      color: $n-yellow;
+      height: 44px;
+      line-height: 44px;
+      text-align: center;
+    }
+
+    &__tag {
+      color: $n-green;
+      padding: 10px 30px;
+      border-radius: 30px 0 0 30px;
+      text-align: center;
+      background: $n-green-light;
+    }
+
+    &__title {
+      margin-top: 20px;
+      color: $n-grey;
+      font-family: 'Kufam', sans-serif;
+      font-weight: 700;
+    }
+
+    &__price {
+      color: $n-grey;
+      font-family: 'Kufam', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+
+      &--green {
+        color: $n-green;
+      }
+    }
+
+    &__feature-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    &__feature {
+      width: 36px;
+      height: 36px;
+      padding: 6px;
+      text-align: center;
+      border-radius: 10px;
+      background: $n-green-light;
+    }
+  }
+
+}
