@@ -42,27 +42,33 @@ export const About = () => {
   ];
 
   return (
-    <section className='container about'>
-      <div className='about__illustration'>
-        <img src={AboutUs} alt='user rating' />
-      </div>
-      <div className='about__info'>
-        <h2 className='about__info__title'>
-          A Wonderful Agency To Fullfill your Dreams
-        </h2>
-        <p className='about__info__subtitle'>
-          The Hajj and Umrah pilgrimages are smooth, the heart is clean. we have
-          been trusted since 2006 and have obtained a license from SAUDI ARABIA
-          to become this travel agency.
-        </p>
-        <div className='about__info__list-container'>
-          {featureList.map((feature) => (
-            <Feature key={feature.id} icon={feature.icon} text={feature.text} />
-          ))}
+    <section className='about-container'>
+      <div className='container about'>
+        <div className='about__illustration'>
+          <img src={AboutUs} alt='user rating' />
         </div>
-        <div className='about__info__buttons'>
-          <Button>Learn more</Button>
-          <Button className='btn btn--outline-primary'>Contact Us</Button>
+        <div className='about__info'>
+          <h2 className='about__info__title'>
+            A Wonderful Agency To Fullfill your Dreams
+          </h2>
+          <p className='about__info__subtitle'>
+            The Hajj and Umrah pilgrimages are smooth, the heart is clean. we
+            have been trusted since 2006 and have obtained a license from SAUDI
+            ARABIA to become this travel agency.
+          </p>
+          <div className='about__info__list-container'>
+            {featureList.map((feature) => (
+              <Feature
+                key={feature.id}
+                icon={feature.icon}
+                text={feature.text}
+              />
+            ))}
+          </div>
+          <div className='about__info__buttons'>
+            <Button>Learn more</Button>
+            <Button className='btn btn--outline-primary'>Contact Us</Button>
+          </div>
         </div>
       </div>
     </section>
