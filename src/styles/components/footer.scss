@@ -1,0 +1,88 @@
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 25px;
+  background: $n-green;
+}
+
+.footer {
+  &__top {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 25px;
+  }
+
+  &__bottom {
+    padding-top: 25px;
+    border-top: 1px solid $n-white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 25%;
+    p {
+      margin-top: 20px;
+      color: $n-white;
+      font-family: 'Nunito', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  &__links {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__quick {
+    width: 22%;
+  }
+
+  &__quick, &__umrah, &__hajj, &__office {
+    width: 26%;
+  }
+
+  &__title {
+    color: $n-white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__links-container {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__link {
+    color: $n-white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  &__socmed-container {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+  }
+
+  &__socmed-link {
+    text-decoration: none;
+  }
+
+  &__copyright {
+    color: $n-white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
