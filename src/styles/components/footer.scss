@@ -76,6 +76,9 @@
 
   &__socmed-link {
     text-decoration: none;
+    padding: 6px;
+    border-radius: 10px;
+    background: $n-white;
   }
 
   &__copyright {

@@ -1,5 +1,11 @@
 import LogoFooter from '@/assets/img/logo-footer.png';
 import { Link } from 'react-router-dom';
+import {
+  FacebookIcon,
+  InstagramIcon,
+  TwitterIcon,
+  YoutubeIcon,
+} from '@/assets/icons';
 
 export const Footer = () => {
   return (
@@ -112,24 +118,24 @@ export const Footer = () => {
             </div>
             <div className='footer__socmed'>
               <ul className='footer__socmed-container'>
-                <li>
-                  <a href='#' className='footer__socmed-link'>
-                    instagram logo
+                <li className='footer__socmed-link'>
+                  <a href='#'>
+                    <InstagramIcon />
                   </a>
                 </li>
-                <li>
-                  <a href='#' className='footer__socmed-link'>
-                    facebook logo
+                <li className='footer__socmed-link'>
+                  <a href='#'>
+                    <FacebookIcon />
                   </a>
                 </li>
-                <li>
-                  <a href='#' className='footer__socmed-link'>
-                    twitter logo
+                <li className='footer__socmed-link'>
+                  <a href='#'>
+                    <TwitterIcon />
                   </a>
                 </li>
-                <li>
-                  <a href='#' className='footer__socmed-link'>
-                    youtube logo
+                <li className='footer__socmed-link'>
+                  <a href='#'>
+                    <YoutubeIcon />
                   </a>
                 </li>
               </ul>
