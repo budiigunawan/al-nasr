@@ -11,6 +11,10 @@ import { HealthIcon } from './HealthIcon';
 import { HostelIcon } from './HostelIcon';
 import { MemberIcon } from './MemberIcon';
 import { VaccineIcon } from './VaccineIcon';
+import { FacebookIcon } from './FacebookIcon';
+import { InstagramIcon } from './InstagramIcon';
+import { TwitterIcon } from './TwitterIcon';
+import { YoutubeIcon } from './YoutubeIcon';
 
 export {
   FlightIcon,
@@ -26,4 +30,8 @@ export {
   HostelIcon,
   MemberIcon,
   VaccineIcon,
+  FacebookIcon,
+  InstagramIcon,
+  TwitterIcon,
+  YoutubeIcon,
 };
