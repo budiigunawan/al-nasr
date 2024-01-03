@@ -50,5 +50,31 @@
   display: flex;
   padding: 20px 26px;
   align-items: flex-start;
-  gap: 10px;
+  gap: 24px;
+
+  &__left {
+    width: 25%;
+  }
+
+  &__right {
+    width: 75%;
+  }
+
+  &__img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  &__title {
+    color: $n-grey;
+    font-family: 'Kufam', sans-serif;
+    font-size: 24px;
+  }
+
+  &__text {
+    width: 301px;
+    color: $n-grey-dark;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+  }
 }

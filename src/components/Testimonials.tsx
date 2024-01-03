@@ -1,6 +1,7 @@
 import { ArrowLeft, ArrowRight } from '@/assets/icons';
-import { Badge } from './ui/Badge';
+// import { Badge } from './ui/Badge';
 import { Button } from './ui/Button';
+import User1 from '@/assets/img/user-1.png';
 
 export const Testimonials = () => {
   return (
@@ -21,11 +22,15 @@ export const Testimonials = () => {
       <div className='testimonials__body'>
         <div className='testimonials-card'>
           <div className='testimonials-card__left'>
-            <img src='#' alt='customers' className='testimonials-card__img' />
-            <div className='testimonials-card__rating'>4.9</div>
+            <img
+              src={User1}
+              alt='customers'
+              className='testimonials-card__img'
+            />
+            {/* <Badge text='4.9' /> */}
           </div>
           <div className='testimonials-card__right'>
-            <Badge text='Al Nasr Umrah' />
+            {/* <Badge text='Al Nasr Umrah' /> */}
             <h3 className='testimonials-card__title'>Humaira Khaira</h3>
             <p className='testimonials-card__text'>
               I am very satisfied with Al Nasr Travel's service, starting from
