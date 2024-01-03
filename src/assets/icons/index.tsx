@@ -15,6 +15,8 @@ import { FacebookIcon } from './FacebookIcon';
 import { InstagramIcon } from './InstagramIcon';
 import { TwitterIcon } from './TwitterIcon';
 import { YoutubeIcon } from './YoutubeIcon';
+import { ArrowLeft } from './ArrowLeft';
+import { ArrowRight } from './ArrowRight';
 
 export {
   FlightIcon,
@@ -34,4 +36,6 @@ export {
   InstagramIcon,
   TwitterIcon,
   YoutubeIcon,
+  ArrowLeft,
+  ArrowRight,
 };
